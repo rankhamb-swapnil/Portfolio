@@ -1,67 +1,52 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background: #f8f8f8;
+    margin: 0;
+    padding: 0 20px;
+    background: #f4f4f4;
+    color: #333;
 }
 
-/* Navbar */
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background: black;
-    color: white;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Hero */
-.hero {
+header {
     text-align: center;
-    padding: 100px 20px;
-    background: #4c6ef5;
-    color: white;
+    padding: 30px 10px;
 }
 
-.hero span {
-    color: yellow;
+header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
 }
 
-/* Sections */
+header p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
 section {
-    padding: 60px 20px;
+    margin-bottom: 40px;
 }
 
-/* Projects */
+h2 {
+    border-left: 5px solid #4c6ef5;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
 .project-card {
     background: white;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 15px;
+    margin: 15px 0;
     border-left: 5px solid #4c6ef5;
     border-radius: 5px;
 }
 
-.project-card a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #4c6ef5;
+ul {
+    line-height: 1.7;
 }
 
-/* Contact */
-.contact a {
-    text-decoration: none;
-    color: #4c6ef5;
+hr {
+    margin: 20px 0;
 }
-
